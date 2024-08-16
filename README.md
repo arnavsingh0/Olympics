@@ -1,10 +1,10 @@
 # Predicting 2024 Olympic Outcomes Based on Historical Data
 
 ## Team Members
-- Your Name 1
-- Your Name 2
-- Your Name 3
-- Your Name 4
+- Tuna Akmehmet
+- Ethan Baird
+- Arnav Singh
+- Kelvin Wang
 
 ## Project Summary
 
@@ -12,11 +12,4 @@ This project aims to predict the outcomes of the 2024 Olympic Games using histor
 
 ## Data Sets Used
 
-- [Athlete Events Data Set](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
-- [NOC Regions Data Set](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
-
-## Relevant Research Paper
-
-If your project is based on recreating or extending work from a specific research paper, include the reference or link to that paper here:
-
-- [Title of the Research Paper](link-to-the-paper)
+- https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
