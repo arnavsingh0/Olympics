@@ -76,19 +76,19 @@ Despite these successes, the project also highlighted several challenges:
 
 ## Learning Outcomes
 
-This project provided valuable learning experiences in several areas:
+We gained valuable learning experiences from this project in several areas:
 
-- **Data Preprocessing:** Team members gained hands-on experience in cleaning and preparing data for analysis, a critical step in any data science project.
-- **Modeling Techniques:** We explored a variety of machine learning models, gaining insights into how different algorithms work and when to apply them.
-- **Evaluation and Interpretation:** The project emphasized the importance of model evaluation, teaching us how to assess model performance and interpret the results.
-- **Collaboration and Workflow:** We learned how to collaborate effectively, manage a project workflow, and integrate different parts of a project into a cohesive whole.
+- **Data Preprocessing:** As an essential first step in any data science project, all of the team members obtained practical expertise in cleaning and preparing data for analysis.
+- **Modeling Techniques:** By investigating several machine learning models, we were able to understand more about how various algorithms function and when to use them.
+- **Evaluation and Interpretation:** The project taught us how to evaluate the performance of the model and interpret the findings, emphasizing the significance of model evaluation.
+- **Collaboration and Workflow:** We gained knowledge on how to coordinate efforts, oversee project workflows, and combine disparate project components to create a seamless whole.
 
-## Author Contribution Statement
+## Author's Contribution Note
 
-- **Kelvin Wang:** Led the data preprocessing and feature engineering efforts, ensuring the dataset was clean and ready for modeling.
-- **Tuna Akmehmet:** Worked on the interpretation of results, generating insights from the model outputs and compiling the main findings.
-- **Ethan Baird:** Focused on the implementation of machine learning models, including Decision Trees, Random Forest, and kNN, and evaluated their performance.
-- **Arnav Singh:** Managed the project workflow, ensuring timely progress and integrating the various components into the final report.
+**Kelvin Wang:** Oversaw the feature engineering and data pretreatment tasks, making sure the dataset was clean and prepared for modeling.
+- **Tuna Akmehmet:** Contributed to the results interpretation, drawing conclusions from the model outputs and organizing the key findings.
+**Ethan Baird:** Maintained an emphasis on implementing and assessing the performance of machine learning models, such as Random Forest, kNN, and Decision Trees.
+**Arnav Singh:** Oversaw the project's process, making sure it moved forward on schedule and combining all of the different parts into the finished report.
 
 ## Conclusion
 
