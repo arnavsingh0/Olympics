@@ -86,7 +86,7 @@ We gained valuable learning experiences from this project in several areas:
 ## Author's Contribution Note
 
 **Kelvin Wang:** Oversaw the feature engineering and data pretreatment tasks, making sure the dataset was clean and prepared for modeling.
-- **Tuna Akmehmet:** Contributed to the results interpretation, drawing conclusions from the model outputs and organizing the key findings.
+**Tuna Akmehmet:** Contributed to the results interpretation, drawing conclusions from the model outputs and organizing the key findings.
 **Ethan Baird:** Maintained an emphasis on implementing and assessing the performance of machine learning models, such as Random Forest, kNN, and Decision Trees.
 **Arnav Singh:** Oversaw the project's process, making sure it moved forward on schedule and combining all of the different parts into the finished report.
 
