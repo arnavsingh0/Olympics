@@ -69,10 +69,10 @@ Despite these successes, the project also highlighted several challenges:
 ### Visual Aids
 
 ![Model Performance Comparison](figures/comparison.png)  
-*Figure 1: Comparison of Model Performance in Terms of Training and Testing Accuracy.*
+*Figure 1: Comparison of Model Performance in Terms of Training and Testing Accuracy from Historical Data.*
 
-![Feature Importance in Random Forest](figures/feature_importance.png)  
-*Figure 2: Feature Importance as Determined by the Random Forest Model.*
+![Feature Importance in Random Forest](figures/average.png)  
+*Figure 2: Comparison of Average Model Performance in Terms of Training and Testing Accuracy from 2024 Olympics.*
 
 ## Learning Outcomes
 
