@@ -47,7 +47,6 @@ We experimented with various machine learning models to predict whether an athle
 - **Random Forest Classifier:** Trained to leverage the power of ensemble learning, combining the predictions of multiple decision trees to improve accuracy.
 - **Bagging and Boosting Classifiers:** Explored Bagging (Bootstrap Aggregating) and Gradient Boosting techniques to further improve the model's performance by combining multiple weak learners.
 - **Support Vector Classifier (SVC):** Used to classify the data by finding the optimal hyperplane that maximizes the margin between the classes.
-- **k-Nearest Neighbors (kNN):** Implemented to predict the class of a given athlete based on the classes of their nearest neighbors in the feature space.
 
 ### Evaluation
 
