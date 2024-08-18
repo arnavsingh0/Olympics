@@ -60,7 +60,7 @@ The evaluation results were stored in a DataFrame to compare the performance of 
 
 ## Main Findings
 
-Our analysis revealed that ensemble methods, such as Random Forest and Gradient Boosting, outperformed simpler models like Logistic Regression and Decision Trees in terms of both training and testing accuracy. These findings suggest that capturing the complex interactions between features is crucial for accurately predicting Olympic outcomes. The k-Nearest Neighbors model also showed competitive performance, particularly when the number of neighbors (k) was carefully chosen.
+Our analysis revealed that ensemble methods, such as Random Forest and Gradient Boosting, outperformed simpler models like Logistic Regression and Decision Trees in terms of both training and testing accuracy. These findings suggest that capturing the complex interactions between features is crucial for accurately predicting Olympic outcomes. The accuracies while suprising on the training data were unable to very accurately predict the 2024 standings. With many models having less than 70% accuracy on the 2024 olympics. 
 
 Despite these successes, the project also highlighted several challenges:
 - **Data Imbalance:** Even after balancing the dataset, predicting medalists remains challenging due to the inherent unpredictability of sports outcomes.
@@ -95,6 +95,6 @@ We gained valuable learning experiences from this project in several areas:
 
 ## Conclusion
 
-This project demonstrated the potential of machine learning models to predict Olympic outcomes based on historical data. While the models showed varying degrees of success, they also underscore the complexity of sports prediction. Future work could involve integrating more features, such as athletes' training regimes or recent performance metrics, to improve predictive accuracy.
+This project demonstrated the potential of machine learning models to predict Olympic outcomes based on historical data. While the models showed varying degrees of success, they also underscore the complexity of sports prediction. Also, the models were not able to accomplish predictive capabilities accurately. There are many potential reasons from having not enough data, with many events having less than 50 medal winners that contain usable data, from using models that don't handle probablitistic results. Future work could involve integrating more features, such as athletes' training regimes or recent performance metrics, to improve predictive accuracy. We also could have added other sporting events, to more accurately predict sporting events as a whole rather than the olypmics itself, which would have given us a drastic amount of more data to use.
 
-As we move closer to the 2024 Olympics, these models could be further refined and used to generate insights and predictions that might be of interest to coaches, analysts, and sports enthusiasts. However, it's important to approach these predictions with caution, given the dynamic and unpredictable nature of sports competitions.
+As we move closer to the 2028 Olympics, these models could be further refined and used to generate insights and predictions that might be of interest to coaches, analysts, and sports enthusiasts. However, it's important to approach these predictions with caution, given the dynamic and unpredictable nature of sports competitions.
