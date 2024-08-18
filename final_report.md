@@ -1,10 +1,10 @@
 # Predicting 2024 Paris Olympics Results Based on Historical Data
 
 **Authors:**
-- Kelvin Wang
 - Tuna Akmehmet
 - Ethan Baird
 - Arnav Singh
+- Kelvin Wang
 
 **Date:** August 18, 2024  
 **Course:** Prof. Schwarze, Mathematics and AI (MATH 76.01)
