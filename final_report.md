@@ -29,6 +29,18 @@ The dataset utilized in this study (`athlete_events.csv`) includes various featu
 - **Handling Missing Data:** The `Medal` column, which serves as the target variable, was filled with "No Medal" for missing entries to distinguish between medalists and non-medalists.
 - **Encoding Categorical Variables:** We encoded categorical variables like `Sex` (0 for male, 1 for female) and `Medal` (0 for no medal, 1 for won a medal) to prepare them for model training.
 - **Filtering the Dataset:** To ensure the model's relevance, we filtered the dataset to include only those events where a sufficient number of athletes had won medals (more than 50 medalists in each event).
+- - **Data Exploration:** We wanted to see height and weight influence in medal-winning events, evolutionary trends in athletic performance in variables we were observing, and modeling performance based on physical attributes.
+ 
+### Visual Aids
+![Event Height Comparison](figures/Height(1vs0).png)
+*Figure 1: Comparison of the mean height of events competitors compared to the mean height overall competitors
+
+![Event Weight Comparison](figures/Weight(1vs0).png)
+*Figure 1: Comparison of the mean weight of events competitors compared to the mean weight overall competitors
+
+![Event Age Comparison](figures/Age(1vs0).png)
+*Figure 1: Comparison of the mean age of events competitors compared to the mean age overall competitors
+
 
 ### Feature Engineering
 
@@ -60,7 +72,7 @@ The evaluation results were stored in a DataFrame to compare the performance of 
 
 ## Main Findings
 
-Our analysis revealed that ensemble methods, such as Random Forest and Gradient Boosting, outperformed simpler models like Logistic Regression and Decision Trees in terms of both training and testing accuracy. These findings suggest that capturing the complex interactions between features is crucial for accurately predicting Olympic outcomes. The accuracies while suprising on the training data were unable to very accurately predict the 2024 standings. With many models having less than 70% accuracy on the 2024 olympics. 
+Our analysis revealed that ensemble methods, such as Random Forest and Gradient Boosting, outperformed simpler models like Logistic Regression and Decision Trees in terms of both training and testing accuracy. These findings suggest that capturing the complex interactions between features is crucial for accurately predicting Olympic outcomes. Figure 4, shows that the testing and training accuracy of the models. The testing accuracies were substantially cut from the training, leaving many with under 50% accuracy. The predictive nature of the models is shown in figure 5, which shows how the models performed on the 2024 olympic data. The decision tree and SVM models that included geographical data performed the best, getting 60% correct in predicting who won a medal and who didn't. Many of the models without the geographical data performed worse than the one's who included it. 
 
 Despite these successes, the project also highlighted several challenges:
 - **Data Imbalance:** Even after balancing the dataset, predicting medalists remains challenging due to the inherent unpredictability of sports outcomes.
@@ -69,28 +81,28 @@ Despite these successes, the project also highlighted several challenges:
 ### Visual Aids
 
 ![Model Performance Comparison](figures/comparison.png)  
-*Figure 1: Comparison of Model Performance in Terms of Training and Testing Accuracy from Historical Data.*
+*Figure 4: Comparison of Model Performance in Terms of Training and Testing Accuracy from Historical Data.*
 
 ![Model Performance Comparison](figures/average.png)  
-*Figure 2: Comparison of Average Model Performance in Terms of Testing Accuracy from 2024 Olympics.*
+*Figure 5: Comparison of Average Model Performance in Terms of Testing Accuracy from 2024 Olympics.*
 
 ![Model Performance Comparison](figures/mhighjump.png)  
-*Figure 3: Comparison of Model Performance for Men's High Jump in Terms of Testing Accuracy from 2024 Olympics.*
+*Figure 6: Comparison of Model Performance for Men's High Jump in Terms of Testing Accuracy from 2024 Olympics.*
 
 ![Model Performance Comparison](figures/wfoil.png)  
-*Figure 4: Comparison of Model Performance for Women's Foil in Terms of Testing Accuracy from 2024 Olympics.*
+*Figure 7: Comparison of Model Performance for Women's Foil in Terms of Testing Accuracy from 2024 Olympics.*
 
 ![Model Performance Comparison](figures/wfloor.png)  
-*Figure 5: Comparison of Model Performance for Women's Floor Gymnastics in Terms of Testing Accuracy from 2024 Olympics.*
+*Figure 8: Comparison of Model Performance for Women's Floor Gymnastics in Terms of Testing Accuracy from 2024 Olympics.*
 
 ![Model Performance Comparison](figures/mheavyboxing.png)  
-*Figure 6: Comparison of Model Performance for Men's Heavyweight Boxing in Terms of Testing Accuracy from 2024 Olympics.*
+*Figure 9: Comparison of Model Performance for Men's Heavyweight Boxing in Terms of Testing Accuracy from 2024 Olympics.*
 
 ![Model Performance Comparison](figures/marchery.png)  
-*Figure 7: Comparison of Model Performance for Men's Individual Archery in Terms of Testing Accuracy from 2024 Olympics.*
+*Figure 10: Comparison of Model Performance for Men's Individual Archery in Terms of Testing Accuracy from 2024 Olympics.*
 
 ![Model Performance Comparison](figures/mmarathon.png)  
-*Figure 8: Comparison of Model Performance for Men's Marathon in Terms of Testing Accuracy from 2024 Olympics.*
+*Figure 11: Comparison of Model Performance for Men's Marathon in Terms of Testing Accuracy from 2024 Olympics.*
 
 ## Learning Outcomes
 
