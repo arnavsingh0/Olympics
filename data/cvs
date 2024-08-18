@@ -1,14 +1,14 @@
 Name,Sex,Age,Height,Weight,Team,NOC,Games,Year,Season,City,Sport,Event,
-Lee Kaifer,F,30,163,49,United States,USA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Arianna Errigo,F,36,180,64,Italy,ITA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Martina Favaretto,F,22,165,65,Italy,ITA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Alice Volpi,F,32,177,64,Italy,ITA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Julia Walczyk-Klimaszyk,F,26,173,60,Poland,POL,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Anne Sauer,F,33,175,65,Germany,FRG,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Ysaora Thibus,F,32,175,56,France,FRA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Pauline Ranvier,F,30,174,61,France,FRA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Eleanor Harvey,F,29,172,56,Canada,CAN,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
-Lauren Scrubbs,F,21,169,56,United States,USA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil
+Lee Kaifer,F,30,163,49,United States,USA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Arianna Errigo,F,36,180,64,Italy,ITA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Martina Favaretto,F,22,165,65,Italy,ITA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Alice Volpi,F,32,177,64,Italy,ITA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Julia Walczyk-Klimaszyk,F,26,173,60,Poland,POL,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Anne Sauer,F,33,175,65,Germany,FRG,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Ysaora Thibus,F,32,175,56,France,FRA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Pauline Ranvier,F,30,174,61,France,FRA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Eleanor Harvey,F,29,172,56,Canada,CAN,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
+Lauren Scrubbs,F,21,169,56,United States,USA,2024 Summer,2024,Summer,Paris,Fencing,Fencing Women's Foil, Individual
 Xie Siyi,M,28,170,68,China,CHN,2024 Summer,2024,Summer,Paris,Diving,Diving Men's Springboard
 Wang Zongyuan,M,22,168,66,China,CHN,2024 Summer,2024,Summer,Paris,Diving,Diving Men's Springboard
 Osmar Olvera,M,20,176,77,Mexico,MEX,2024 Summer,2024,Summer,Paris,Diving,Diving Men's Springboard
@@ -27,13 +27,43 @@ Alice D'Amato,F,21,158,46,Italy,ITA,2024 Summer,2024,Summer,Paris,Gymnastics,Gym
 Rina Kishi,F,16,147,44,Japan,JPN,2024 Summer,2024,Summer,Paris,Gymnastics,Gymnastics Women's Floor Exercise
 Ou Yushan,F,20,147,48,China,CHN,2024 Summer,2024,Summer,Paris,Gymnastics,Gymnastics Women's Floor Exercise
 Manila Esposito,F,17,162,54,Italy,ITA,2024 Summer,2024,Summer,Paris,Gymnastics,Gymnastics Women's Floor Exercise
-Kim Woojin,M,32,180,92,South Korea,KOR,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Kim Je-deok,M,20,176,72,South Korea,KOR,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Florian Unruh,M,31,180,75,Germany,FRG,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Bommadevara dhiraj,M,22,180,70,India,IND,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Lee Wooseok,M,27,175,65,South Korea,KOR,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Addis Baptiste,M,17,186,73,France,FRA,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Ellison Brady,M,35,183,86,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Gazoz Mete,M,25,180,60,Turkey,TUR,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Chirault Thomas,M,26,178,82,France,FRA,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
-Berkim Tumer,M,22,170,77,Turkey,TUR,2024 Summer,2024,Summer,Paris,Archer,Archery Men's Individual
+Kim Woojin,M,32,180,92,South Korea,KOR,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Kim Je-deok,M,20,176,72,South Korea,KOR,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Florian Unruh,M,31,180,75,Germany,FRG,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Bommadevara dhiraj,M,22,180,70,India,IND,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Lee Wooseok,M,27,175,65,South Korea,KOR,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Addis Baptiste,M,17,186,73,France,FRA,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Ellison Brady,M,35,183,86,United States,USA,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Gazoz Mete,M,25,180,60,Turkey,TUR,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Chirault Thomas,M,26,178,82,France,FRA,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Berkim Tumer,M,22,170,77,Turkey,TUR,2024 Summer,2024,Summer,Paris,Archery,Archery Men's Individual
+Hamish Kerr,M,27,198,80,New Zealand,NZL,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Shelby McEwen,M,28,190,74,United States,USA,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Mutaz Barshim,M,33,190,65,Qatar,QAT,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Stefano Sottile,M,26,182,63,Italy,ITA,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Ryoichi Akamatsu,M,29,183,60,Japan,JPN,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Oleh Doroshchuk,M,23,201,78,Ukraine,UKR,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Woo Sang-hyeok,M,28,188,76,South Korea,KOR,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Tihomir Ivanov,M,30,196,76,Bulgaria,BUL,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Jan Štefela,M,23,192,72,Czech Republic,CZE,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Romaine Beckford,M,22,196,86,Jamaica,JAM,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's High Jump
+Tamirat Tola,M,33,180,59,Ethiopia,ETH,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Bashir Abdi,M,35,178,56,Belgium,BEL,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Benson Kipruto,M,33,172,52,Kenya,KEN,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Emile Cairess,M,26,180,56,Great Britain,GBR,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Deresa Geleta,M,28,174,53,Ethiopia,ETH,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Akira Akasaki,M,26,170,50,Japan,JPN,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Conner Mantz,M,27,175,60,United States,USA,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Clayton Young,M,30,183,64,United States,USA,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Samsom Amare,M,30,175,58,Eritrea,ERI,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Elroy Gelant,M,37,175,61,South African,RSA,2024 Summer,2024,Summer,Paris,Athletics,Athletics Men's Marathon
+Davlat Boltaev,M,25,186,92,Tajikistan,TJK,2024 Summer,2024,Summer,Paris,Boxing,Boxing Men's Heavyweight
+Jack Marley,M,21,186,92,Ireland,IRL,2024 Summer,2024,Summer,Paris,Boxing,Boxing Men's Heavyweight
+Loren Alfonso,M,29,189,86,Azerbaijan,AZE,2024 Summer,2024,Summer,Paris,Boxing,Boxing Men's Heavyweight
+Aibek Oralbay,M,24,188,91,Kazakhstan,KAZ,2024 Summer,2024,Summer,Paris,Boxing,Boxing Men's Heavyweight
+Lazizbek Mullojonov,M,25,192,92,Uzbekistan,UZB,2024 Summer,2024,Summer,Paris,Boxing,Boxing Men's Heavyweight
+Keno Machado,M,24,191,92,Brazil,BRA,2024 Summer,2024,Summer,Paris,Boxing,Boxing Men's Heavyweight
+Enmanuel Reyes,M,31,191,92,Spain,ESP,2024 Summer,2024,Summer,Paris,Boxing,Boxing Men's Heavyweight
+Victor Schelstraete,M,28,190,92,Belgium,BEL,2024 Summer,2024,Summer,Paris,Boxing,Boxing Men's Heavyweight
+
+

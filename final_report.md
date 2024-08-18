@@ -1,10 +1,10 @@
 # Predicting 2024 Paris Olympics Results Based on Historical Data
 
 **Authors:**
-- Kelvin Wang
 - Tuna Akmehmet
 - Ethan Baird
 - Arnav Singh
+- Kelvin Wang
 
 **Date:** August 18, 2024  
 **Course:** Prof. Schwarze, Mathematics and AI (MATH 76.01)
@@ -47,20 +47,20 @@ We experimented with various machine learning models to predict whether an athle
 - **Random Forest Classifier:** Trained to leverage the power of ensemble learning, combining the predictions of multiple decision trees to improve accuracy.
 - **Bagging and Boosting Classifiers:** Explored Bagging (Bootstrap Aggregating) and Gradient Boosting techniques to further improve the model's performance by combining multiple weak learners.
 - **Support Vector Classifier (SVC):** Used to classify the data by finding the optimal hyperplane that maximizes the margin between the classes.
-- **k-Nearest Neighbors (kNN):** Implemented to predict the class of a given athlete based on the classes of their nearest neighbors in the feature space.
 
 ### Evaluation
 
 Each model was trained and evaluated using the following metrics:
 
 - **Training Accuracy:** Measures the accuracy of the model on the training set, indicating how well the model has learned the training data.
-- **Testing Accuracy:** Measures the accuracy of the model on the testing set, providing an indication of the model's ability to generalize to new, unseen data.
+- **Testing Accuracy on Historical Data:** Measures the accuracy of the model on the testing set, providing an indication of the model's ability to generalize to new, unseen data.
+- **Testing Accuracy on 2024 Data** Measures the accuracy of the model on the testing set of 2024 data, which showcases the model's predictive ability.
 
 The evaluation results were stored in a DataFrame to compare the performance of each model.
 
 ## Main Findings
 
-Our analysis revealed that ensemble methods, such as Random Forest and Gradient Boosting, outperformed simpler models like Logistic Regression and Decision Trees in terms of both training and testing accuracy. These findings suggest that capturing the complex interactions between features is crucial for accurately predicting Olympic outcomes. The k-Nearest Neighbors model also showed competitive performance, particularly when the number of neighbors (k) was carefully chosen.
+Our analysis revealed that ensemble methods, such as Random Forest and Gradient Boosting, outperformed simpler models like Logistic Regression and Decision Trees in terms of both training and testing accuracy. These findings suggest that capturing the complex interactions between features is crucial for accurately predicting Olympic outcomes. The accuracies while suprising on the training data were unable to very accurately predict the 2024 standings. With many models having less than 70% accuracy on the 2024 olympics. 
 
 Despite these successes, the project also highlighted several challenges:
 - **Data Imbalance:** Even after balancing the dataset, predicting medalists remains challenging due to the inherent unpredictability of sports outcomes.
@@ -69,10 +69,28 @@ Despite these successes, the project also highlighted several challenges:
 ### Visual Aids
 
 ![Model Performance Comparison](figures/comparison.png)  
-*Figure 1: Comparison of Model Performance in Terms of Training and Testing Accuracy.*
+*Figure 1: Comparison of Model Performance in Terms of Training and Testing Accuracy from Historical Data.*
 
-![Feature Importance in Random Forest](figures/feature_importance.png)  
-*Figure 2: Feature Importance as Determined by the Random Forest Model.*
+![Model Performance Comparison](figures/average.png)  
+*Figure 2: Comparison of Average Model Performance in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/mhighjump.png)  
+*Figure 3: Comparison of Model Performance for Men's High Jump in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/wfoil.png)  
+*Figure 4: Comparison of Model Performance for Women's Foil in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/wfloor.png)  
+*Figure 5: Comparison of Model Performance for Women's Floor Gymnastics in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/mheavyboxing.png)  
+*Figure 6: Comparison of Model Performance for Men's Heavyweight Boxing in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/marchery.png)  
+*Figure 7: Comparison of Model Performance for Men's Individual Archery in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/mmarathon.png)  
+*Figure 8: Comparison of Model Performance for Men's Marathon in Terms of Testing Accuracy from 2024 Olympics.*
 
 ## Learning Outcomes
 
@@ -85,16 +103,16 @@ We gained valuable learning experiences from this project in several areas:
 
 ## Author's Contribution Note
 
-**Kelvin Wang:** Oversaw the feature engineering and data pretreatment tasks, making sure the dataset was clean and prepared for modeling.
-
 **Tuna Akmehmet:** Contributed to the results interpretation, drawing conclusions from the model outputs and organizing the key findings.
 
-**Ethan Baird:** Maintained an emphasis on implementing and assessing the performance of machine learning models, such as Random Forest, kNN, and Decision Trees.
+**Ethan Baird:** Created the test data for the 2024 Olympics, along with finding the model's accuarcy on that data, projecting it onto a graph.
 
 **Arnav Singh:** Oversaw the project's process, making sure it moved forward on schedule and combining all of the different parts into the finished report.
 
+**Kelvin Wang:** Oversaw the feature engineering and data pretreatment tasks, making sure the dataset was clean and prepared for modeling.
+
 ## Conclusion
 
-This project demonstrated the potential of machine learning models to predict Olympic outcomes based on historical data. While the models showed varying degrees of success, they also underscore the complexity of sports prediction. Future work could involve integrating more features, such as athletes' training regimes or recent performance metrics, to improve predictive accuracy.
+This project demonstrated the potential of machine learning models to predict Olympic outcomes based on historical data. While the models showed varying degrees of success, they also underscore the complexity of sports prediction. Also, the models were not able to accomplish predictive capabilities accurately. There are many potential reasons from having not enough data, with many events having less than 50 medal winners that contain usable data, to using models that don't handle probablitistic results. Future work could involve integrating more features, such as athletes' training regimes or recent performance metrics, to improve predictive accuracy. We also could have added other sporting events, to more accurately predict sporting events as a whole rather than the olypmics itself, which would have given us a drastic amount of more data to use.
 
-As we move closer to the 2024 Olympics, these models could be further refined and used to generate insights and predictions that might be of interest to coaches, analysts, and sports enthusiasts. However, it's important to approach these predictions with caution, given the dynamic and unpredictable nature of sports competitions.
+As we move closer to the 2028 Olympics, these models could be further refined and used to generate insights and predictions that might be of interest to coaches, analysts, and sports enthusiasts. However, it's important to approach these predictions with caution, given the dynamic and unpredictable nature of sports competitions.
