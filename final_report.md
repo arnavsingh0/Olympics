@@ -68,10 +68,10 @@ Despite these successes, the project also highlighted several challenges:
 
 ### Visual Aids
 
-![Model Performance Comparison](comparison.png)  
+![Model Performance Comparison](figures/comparison.png)  
 *Figure 1: Comparison of Model Performance in Terms of Training and Testing Accuracy.*
 
-![Feature Importance in Random Forest](feature_importance.png)  
+![Feature Importance in Random Forest](figures/feature_importance.png)  
 *Figure 2: Feature Importance as Determined by the Random Forest Model.*
 
 ## Learning Outcomes
