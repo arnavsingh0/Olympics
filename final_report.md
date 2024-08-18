@@ -43,9 +43,6 @@ The dataset utilized in this study (`athlete_events.csv`) includes various featu
 ![Event Age Comparison](figures/Age.png)
 *Figure 3: Comparison of the mean age of events competitors compared to the mean age overall competitors
 
-*Figure 4: Small
-
-
 ### Feature Engineering
 
 To further enhance the predictive power of our models, additional feature engineering was performed:
