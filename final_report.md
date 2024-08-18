@@ -68,10 +68,10 @@ Despite these successes, the project also highlighted several challenges:
 
 ### Visual Aids
 
-![Model Performance Comparison](model_performance.png)  
+![Model Performance Comparison](figures/comparison.png)  
 *Figure 1: Comparison of Model Performance in Terms of Training and Testing Accuracy.*
 
-![Feature Importance in Random Forest](feature_importance.png)  
+![Feature Importance in Random Forest](figures/feature_importance.png)  
 *Figure 2: Feature Importance as Determined by the Random Forest Model.*
 
 ## Learning Outcomes
@@ -86,8 +86,11 @@ We gained valuable learning experiences from this project in several areas:
 ## Author's Contribution Note
 
 **Kelvin Wang:** Oversaw the feature engineering and data pretreatment tasks, making sure the dataset was clean and prepared for modeling.
-- **Tuna Akmehmet:** Contributed to the results interpretation, drawing conclusions from the model outputs and organizing the key findings.
+
+**Tuna Akmehmet:** Contributed to the results interpretation, drawing conclusions from the model outputs and organizing the key findings.
+
 **Ethan Baird:** Maintained an emphasis on implementing and assessing the performance of machine learning models, such as Random Forest, kNN, and Decision Trees.
+
 **Arnav Singh:** Oversaw the project's process, making sure it moved forward on schedule and combining all of the different parts into the finished report.
 
 ## Conclusion
