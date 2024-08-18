@@ -53,7 +53,8 @@ We experimented with various machine learning models to predict whether an athle
 Each model was trained and evaluated using the following metrics:
 
 - **Training Accuracy:** Measures the accuracy of the model on the training set, indicating how well the model has learned the training data.
-- **Testing Accuracy:** Measures the accuracy of the model on the testing set, providing an indication of the model's ability to generalize to new, unseen data.
+- **Testing Accuracy on Historical Data:** Measures the accuracy of the model on the testing set, providing an indication of the model's ability to generalize to new, unseen data.
+- **Testing Accuracy on 2024 Data** Measures the accuracy of the model on the testing set of 2024 data, which showcases the model's predictive ability.
 
 The evaluation results were stored in a DataFrame to compare the performance of each model.
 
