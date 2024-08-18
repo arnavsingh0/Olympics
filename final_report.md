@@ -89,7 +89,7 @@ We gained valuable learning experiences from this project in several areas:
 
 **Tuna Akmehmet:** Contributed to the results interpretation, drawing conclusions from the model outputs and organizing the key findings.
 
-**Ethan Baird:** Maintained an emphasis on implementing and assessing the performance of machine learning models, such as Random Forest, kNN, and Decision Trees.
+**Ethan Baird:** Created the test data for the 2024 Olympics, along with finding the model's accuarcy on that data, projecting it onto a graph.
 
 **Arnav Singh:** Oversaw the project's process, making sure it moved forward on schedule and combining all of the different parts into the finished report.
 
