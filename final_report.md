@@ -71,8 +71,26 @@ Despite these successes, the project also highlighted several challenges:
 ![Model Performance Comparison](figures/comparison.png)  
 *Figure 1: Comparison of Model Performance in Terms of Training and Testing Accuracy from Historical Data.*
 
-![Feature Importance in Random Forest](figures/average.png)  
-*Figure 2: Comparison of Average Model Performance in Terms of Training and Testing Accuracy from 2024 Olympics.*
+![Model Performance Comparison](figures/average.png)  
+*Figure 2: Comparison of Average Model Performance in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/mhighjump.png)  
+*Figure 3: Comparison of Model Performance for Men's High Jump in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/wfoil.png)  
+*Figure 4: Comparison of Model Performance for Women's Foil in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/wfloor.png)  
+*Figure 5: Comparison of Model Performance for Women's Floor Gymnastics in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/mheavyboxing.png)  
+*Figure 6: Comparison of Model Performance for Men's Heavyweight Boxing in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/marchery.png)  
+*Figure 7: Comparison of Model Performance for Men's Individual Archery in Terms of Testing Accuracy from 2024 Olympics.*
+
+![Model Performance Comparison](figures/mmarathon.png)  
+*Figure 8: Comparison of Model Performance for Men's Marathon in Terms of Testing Accuracy from 2024 Olympics.*
 
 ## Learning Outcomes
 
