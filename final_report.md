@@ -29,6 +29,7 @@ The dataset utilized in this study (`athlete_events.csv`) includes various featu
 - **Handling Missing Data:** The `Medal` column, which serves as the target variable, was filled with "No Medal" for missing entries to distinguish between medalists and non-medalists.
 - **Encoding Categorical Variables:** We encoded categorical variables like `Sex` (0 for male, 1 for female) and `Medal` (0 for no medal, 1 for won a medal) to prepare them for model training.
 - **Filtering the Dataset:** To ensure the model's relevance, we filtered the dataset to include only those events where a sufficient number of athletes had won medals (more than 50 medalists in each event).
+- - **Data Exploration:** We wanted to see height and weight influence in medal-winning events, evolutionary trends in athletic performance in variables we were observing, and modeling performance based on physical attributes.
 
 ### Feature Engineering
 
