@@ -33,13 +33,17 @@ The dataset utilized in this study (`athlete_events.csv`) includes various featu
  
 ### Visual Aids
 ![Event Height Comparison](figures/Height(1vs0).png)
-*Figure 1: Comparison of the mean height of events competitors compared to the mean height overall competitors
+![Event Small Height Comparison](figures/smallHeight.png)
+*Figure 1: Comparison of the mean height of events competitors compared to the mean height overall competitors. Second plot is one of the small differences
 
 ![Event Weight Comparison](figures/Weight(1vs0).png)
-*Figure 1: Comparison of the mean weight of events competitors compared to the mean weight overall competitors
+![Event Small Weight Comparison](figures/smallWeight.png)
+*Figure 2: Comparison of the mean weight of events competitors compared to the mean weight overall competitors. Second plot is of events with small differences
 
-![Event Age Comparison](figures/Age(1vs0).png)
-*Figure 1: Comparison of the mean age of events competitors compared to the mean age overall competitors
+![Event Age Comparison](figures/Age.png)
+*Figure 3: Comparison of the mean age of events competitors compared to the mean age overall competitors
+
+*Figure 4: Small
 
 
 ### Feature Engineering
